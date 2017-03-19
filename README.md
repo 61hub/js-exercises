@@ -79,7 +79,7 @@
                                   //    "War and sex"
                                   //    "Deep into rip"
   ```
-- [ ] (3) Write a function with a loop to list the properties of a object.
+- [ ] (3) Write a function with a loop to list the properties of an object.
   ```javascript
   var user = {
     name: "Petr",
@@ -92,24 +92,58 @@
   ```
 
 # Strings
-- [ ] (1) Write a JavaScript function to check whether a string is blank or not.
-- [ ] (2) Write a JavaScript function to split a string and convert it into an array of words.
-- [ ] (3) Write a JavaScript function to remove specified number of characters from a string.
-- [ ] (4) Write a JavaScript function to capitalize the first letter of each word in a string.
-- [ ] (5) Write a JavaScript function to truncates a string if it is longer than the specified number of characters. Truncated strings will end with a translatable ellipsis sequence ("…").
-- [ ] (6) Write a JavaScript function to strip leading and trailing spaces from a string.
-- [ ] (7) Write a JavaScript function to find a word within a string. Go to the editor
-  Test Data :
-  console.log(search_word('The quick brown fox', 'fox')); 
-  console.log(search_word('aa, bb, cc, dd, aa', 'aa'));
-  Output : 
-  "'fox' was found 1 times." 
-  "'aa' was found 2 times."
-- [ ] (8) 
-
+- [ ] (1) Write a function to check whether a string is blank or not.
+  ```javascript
+  console.log( yourFunc("") );    // => true // the string is blakn so "true"
+  console.log( yourFunc("Wow") ); // => false // the string isn't blank so "false"
+  ```
+- [ ] (2) Write a function to split a string and convert it into an array of words.
+  ```javascript
+  console.log( yourFunc("Have a nice day") ); // => ["Have", "a", "nice", "day"]
+  ```
+- [ ] (3) Write a function to remove specified number of characters from a string start.
+  ```javasctipt
+  console.log( yourFunc("How are you man?", 4) );   // => "are you man"
+  console.log( yourFunc("The sun goes down", 13) ); // => "down"
+  ```
+- [ ] (4) Write a function to capitalize the first letter of each word in a string.
+  ```javascript
+  console.log( yourFunc("where is the shift button?") );  // => "Where Is The Shift Button?"
+  console.log( yourFunc("under caps lock") );             // => "Under Caps Lock"
+  ```
+- [ ] (5) Write a function to truncates a string if it is longer than the specified number of characters. Truncated strings will end with a translatable ellipsis sequence ("...").
+  ```javascript
+  console.log( yourFunc("Hello, my name's Jordan", 5) );  // => "Hello..."
+  console.log( yourFunc("Where is my mind?", 11));        // => "Where is my..."
+  ```
+- [ ] (6) Write a function to strip leading and trailing spaces from a string.
+  ```javascript
+  console.log( yourFunc(" wow") );  // => "wow"
+  console.log( yourFunc(" lol ") ); // => "lol"
+  ```
+- [ ] (7) Write a function to find a word within a string.
+  ```javascript
+  console.log( yourFunc("The quick brown fox", "fox")); // => "'fox' was found 1 times"
+  console.log( yourFunc("aa, bb, cc, dd, aa", "aa"));   // => "'a' was found 2 times"
+  ```
 # Types
-- [x] (1) Write a JavaScript function which accepts an argument and returns the type.
+- [x] (1) Write a function which accepts an argument and returns the type.
 
 # Objects
-- [ ] (1) Write a JavaScript program to delete specific property from the following object. Also print the object to console before and after deleting the property.
+- [ ] (1) Write a function to delete specific property from the following object.
+  ```javascript
+  var user = {
+    name: "Anotshak",
+    age: 12
+  };
+  console.log( yourFunc(user, 'age') ); // => {name: "Anotshak"} // property "age" was removed with its value
+  ```
 - [ ] (2) Write a JavaScript function to check if an object contains given property.
+  ```javascript
+  var city = {
+    name: "Moscow",
+    population: Infinity
+  };
+  console.log( yourFunc(city, "name") );        // => true // city has "title" property so "true"
+  console.log( yourFunc(city, "corruption") );  // => false // city hasn't "corruption" property so "false"
+  ```
