@@ -3,19 +3,19 @@ function reverseNumber(number) {
     var stringifiedNumber = number + "";
     console.log(stringifiedNumber);
 
-    // convert string to array
+    // convert string to array with String.split() method
     var splited = stringifiedNumber.split("");
     console.log(splited);
 
-    // reverse array
+    // reverse array with Array.sort() method
     var reversedArray = splited.reverse();
     console.log(reversedArray);
 
-    // join array to string
+    // join array to string with Array.join() method
     var joinedString = reversedArray.join("");
     console.log(joinedString);
 
-    // parse number from string
+    // parse number from string with global window.parseInt() function
     var reversedNumber = parseInt(joinedString);
 
     return reversedNumber;
