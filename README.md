@@ -1,31 +1,52 @@
 # Arrays
-- [x] (1) Write a JavaScript function that reverse a number.
-- [x] (2) Write a JavaScript function that returns a passed string with letters in alphabetical order.
-- [x] (3) Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.
-- [ ] (4) Write a JavaScript function to check whether an `input` is an array or not.
+- [x] (1) Write a function that reverse a number.
+- [x] (2) Write a function that returns a passed string with letters in alphabetical order.
+- [x] (3) Write a function that accepts a string as a parameter and find the longest word within the string.
+- [ ] (4) Write a function to check whether an `input` is an array or not.
   ```javascript
-    console.log( yourFunc('some text!') ); // => false // (not array) 
-    console.log( yourFunc([1, 2, 4, 0]) ); // => true  // (array)
+  console.log( yourFunc('some text!') ); // => false // (not array) 
+  console.log( yourFunc([1, 2, 4, 0]) ); // => true  // (array)
   ```
-- [ ] (5) Write a JavaScript function to get the first "n" elements of an array.
+- [ ] (5) Write a function to get the first "n" elements of an array.
   ``` javascript
-    console.log( yourFunc([1, 2, 3, 4, 5], 3) ); // => [1, 2, 3] 
-    console.log( yourFunc([3, 2, 31, 34, 5], 1) ); // => [3]
+  console.log( yourFunc([1, 2, 3, 4, 5], 3) ); // => [1, 2, 3] 
+  console.log( yourFunc([3, 2, 31, 34, 5], 1) ); // => [3]
   ```
-- [ ] (6) Write a JavaScript function to get the last element of an array.
+- [ ] (6) Write a function to get the last element of an array.
   ``` javascript
-    console.log( yourFunc([1, 2, 3, 4, 5]) ); // => 5 
-    console.log( yourFunc([3, 2, 31, 34, 7]) ); // => 7
+  console.log( yourFunc([1, 2, 3, 4, 5]) ); // => 5 
+  console.log( yourFunc([3, 2, 31, 34, 7]) ); // => 7
   ```
-- [ ] (7) Write a simple JavaScript program to join all elements of the following array into a string with needed separator.
+- [ ] (7) Write a function to join all elements of the array into a string with needed separator.
   ``` javascript
-    console.log( yourFunc(["Hello", "ladies"], " ") ); // => "Hello ladies" 
-    console.log( yourFunc([8, 968, 945, 41, 72], "-") ); // => "8-968-945-41-72"
+  console.log( yourFunc(["Hello", "ladies"], " ") ); // => "Hello ladies" 
+  console.log( yourFunc([8, 968, 945, 41, 72], "-") ); // => "8-968-945-41-72"
   ```
-- [ ] (8) Write a JavaScript program to remove duplicate items from an array.
-- [ ] (9) Write a JavaScript function to sort the following array of objects by title value. Go to the editor
-- [ ] (10) Write a JavaScript function to merge two arrays and removes all duplicates elements. Go to the editor
-- [ ] (11) Write a JavaScript function to find an array contains a specific element.
+- [ ] (8) Write a function to remove duplicate items from an array.
+  ``` javascript
+  console.log( yourFunc([1, 2, 4, 5, 2, 3, 5]) ); // => [1, 2, 4, 5, 3] 
+  console.log( yourFunc(["Moscow", "Rome", "Paris", "Madrid", "Rome", "Moscow"]) ); // => ["Moscow", "Rome", "Paris", "Madrid"]
+  ```
+- [ ] (9) Write a function to sort the following array of objects by title value.
+  ```javascript
+  var books = [
+    {title: "Golden gold"},
+    {title: "War and sex"},
+    {title: "Deep into rip"}
+  ];
+  console.log( yourFunc(books) ); // => [{title: "Deep into rip"}, {title: "Golden gold"}, {title: "War and sex"}]
+  ```
+- [ ] (10) Write a function to merge two arrays and removes all duplicates elements.
+  ```javascript
+  console.log( yourFunc( [1, 2, 3, 4], [2, 3, 4, 5] ) ); // => [1, 2, 3, 4, 5]
+  console.log( yourFunc( ["Rome", "Moscow", "Paris"], ["Paris", "Amsterdam", "London"] ) ); // => ["Rome", "Moscow", "Paris", "Amsterdam", "London"]
+  ```
+- [ ] (11) Write a function to find an array contains a specific element.
+  ```javascript
+  console.log( yourFunc( [1, 2, 3, 4, 5], 5 ) );          // => true  // 5 is in array so "true"
+  console.log( yourFunc( [1, 2, 3, 4, 5], 12 ) );         // => false // 12 isn't in array so "false"
+  console.log( yourFunc( ["Rome", "Moscow"], "Rome" ) );  // => true // "Rome" is in array so "true"
+  ```
   
 # Callbacks
 - [x] (1) Write a JavaScript program to pass a 'JavaScript function' as parameter.
