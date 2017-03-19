@@ -59,16 +59,37 @@
   ```
   
 # Loops
-- [ ] (1) Write a loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the console.
+- [ ] (1) Write a function with a loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the console.
 
-  Sample Output : 
-  ``` 
-   "0 is even" 
-   "1 is odd" 
-   "2 is even" 
+  ```javascript
+  console.log( yourFunc() ); // =>    "0 is even"
+                             //       "1 is odd" 
+                             //       "2 is even"
+                             //       ...
+                             //       "15 is odd"
    ```
-- [ ] (2) Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books.
-- [ ] (3) Write a JavaScript program to list the properties of a JavaScript object.
+- [ ] (2) Write a function with a loop to display the title of the each item in array of objects.
+  ```javascript
+  var books = [
+    {title: "Golden gold"},
+    {title: "War and sex"},
+    {title: "Deep into rip"}
+  ];
+  console.log( yourFunc(books) ); // => "Golden gold"
+                                  //    "War and sex"
+                                  //    "Deep into rip"
+  ```
+- [ ] (3) Write a function with a loop to list the properties of a object.
+  ```javascript
+  var user = {
+    name: "Petr",
+    age: 17,
+    sex: "M"
+  };
+  console.log( yourFunc(user) );  // => "name"
+                                  //    "age"
+                                  //    "sex"
+  ```
 
 # Strings
 - [ ] (1) Write a JavaScript function to check whether a string is blank or not.
