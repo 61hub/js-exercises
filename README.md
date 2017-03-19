@@ -49,13 +49,17 @@
   ```
   
 # Callbacks
-- [x] (1) Write a JavaScript program to pass a 'JavaScript function' as parameter.
+- [x] (1) Write a function to pass a 'JavaScript function' as parameter.
 
 # Conditions
-- [ ] (1) Write a JavaScript function that accept two numbers as parameters and display the larger one
-
+- [ ] (1) Write a function that accept two numbers as parameters and display the larger one
+  ```javascript
+  console.log( yourFunc(3, 12) );   // => 12
+  console.log( yourFunc(4, 1) );    // => 4
+  ```
+  
 # Loops
-- [ ] (1) Write a JavaScript loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the console.
+- [ ] (1) Write a loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the console.
 
   Sample Output : 
   ``` 
