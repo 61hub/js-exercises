@@ -4,22 +4,22 @@ function doStringAphabetical (string) {
     console.log(string);
 
     // convert String to Array with String.split() method
-    var splited = string.split("");
-    console.log(splited);
+    var chars = string.split("");
+    console.log(chars);
 
     // sort array with Array.sort() method
-    var sorted = splited.sort();
-    console.log(sorted);
+    var sortedChars = chars.sort();
+    console.log(sortedChars);
 
     // join Array back to string with Array.join() method
-    var result = sorted.join("");
-    console.log(result);
+    var sortedStrimg = sortedChars.join("");
+    console.log(sortedStrimg);
 
     // remove spaces at the start of string with String.trim() method
-    result = result.trim();
-    console.log(result);
+    sortedStrimg = sortedStrimg.trim();
+    console.log(sortedStrimg);
 
-    return result;
+    return sortedStrimg;
 }
 
 var basicString = "Some string";
